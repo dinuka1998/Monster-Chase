@@ -12,7 +12,7 @@ Monster Chase is a simple 2D game in which player must survive against swarm of 
 Game controls are simple. Player can move left and right using the **arrow keys** or **A** and **D**. Player can jump by pressing **Space bar**. 
 
 ### Download Monster Chase
-[Click here  ](http://git "Click here to download and play ") to download and play the game.
+[Click here  ](https://github.com/dinuka1998/monster-chase/tree/main/Downloads "Click here") to download and play the game.
 
 ### Acknowledge
 
