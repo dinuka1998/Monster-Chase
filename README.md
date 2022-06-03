@@ -8,6 +8,7 @@
 Monster Chase is a simple 2D game in which player must survive against swarm of monsters. 
 
 ### How to play Monster Chase
+![Animation](https://user-images.githubusercontent.com/42789915/171917509-1c18db9d-9261-4da5-a39a-cadd5e3400f3.gif)
 
 Game controls are simple. Player can move left and right using the **arrow keys** or **A** and **D**. Player can jump by pressing **Space bar**. 
 
