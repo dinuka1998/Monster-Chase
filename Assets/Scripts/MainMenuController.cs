@@ -18,4 +18,10 @@ public class MainMenuController : MonoBehaviour
 
     }
 
+    public void Quit() {
+
+        Application.Quit();
+        
+    }
+
 } // class
