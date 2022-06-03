@@ -16,7 +16,7 @@ Game controls are simple. Player can move left and right using the **arrow keys*
     ![gamepreview](https://user-images.githubusercontent.com/42789915/171856593-c0a726f5-c6b8-4a25-bc77-41d5d2c7cc86.gif)
 </p>
 <p align="center">
-  <img src="[http://material-bread.org/logo-shadow.svg](https://user-images.githubusercontent.com/42789915/171856593-c0a726f5-c6b8-4a25-bc77-41d5d2c7cc86.gif)" alt="monster chase game play preview">
+  <img src="https://user-images.githubusercontent.com/42789915/171856593-c0a726f5-c6b8-4a25-bc77-41d5d2c7cc86.gif" alt="monster chase game play preview">
 </p>
 
 
