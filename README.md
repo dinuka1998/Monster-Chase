@@ -13,12 +13,8 @@ Game controls are simple. Player can move left and right using the **arrow keys*
 
 ### Monster Chase game play
 <p align="center">
-    ![gamepreview](https://user-images.githubusercontent.com/42789915/171856593-c0a726f5-c6b8-4a25-bc77-41d5d2c7cc86.gif)
-</p>
-<p align="center">
   <img src="https://user-images.githubusercontent.com/42789915/171856593-c0a726f5-c6b8-4a25-bc77-41d5d2c7cc86.gif" alt="monster chase game play preview">
 </p>
-
 
 ### Download Monster Chase
 [Click here  ](https://github.com/dinuka1998/monster-chase/tree/main/Downloads "Click here") to download and play the game.
