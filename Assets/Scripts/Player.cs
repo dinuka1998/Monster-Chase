@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -15,23 +16,21 @@ public class Player : MonoBehaviour
     private SpriteRenderer playerSpritRenderer;
     private bool isGrounded;
     private string GROUND_TAG = "Ground";
-     private string ENEMY_TAG = "Enemy";
+    private string ENEMY_TAG = "Enemy";
+    private string UI_TAG = "UI";
+
+    private Text deadText;
     private void Awake() 
     {
 
         playerBody = GetComponent<Rigidbody2D>();
         playerAnim = GetComponent<Animator>();
-        playerSpritRenderer = GetComponent<SpriteRenderer>();    
+        playerSpritRenderer = GetComponent<SpriteRenderer>();  
+        deadText = GameObject.FindWithTag(UI_TAG).GetComponent<Text>();
+        deadText.enabled = false;
 
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
 
@@ -96,7 +95,11 @@ public class Player : MonoBehaviour
             isGrounded = true;
 
         if(collision.gameObject.CompareTag(ENEMY_TAG))
+        {
+            deadText.enabled = true;
             Destroy(gameObject);
+        }
+            
         
         
     }
@@ -104,8 +107,14 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) 
     {
 
-        if(collision.CompareTag(GROUND_TAG))
+        if(collision.CompareTag(GROUND_TAG)) 
+        {
+            deadText.enabled = true;
             Destroy(gameObject);
+            
+
+        }
+           
 
 
     }
