@@ -16,7 +16,7 @@ Game controls are simple. Player can move left and right using the **arrow keys*
 <hr>
 
 ### Download Monster Chase
-[Click here  ](https://github.com/dinuka1998/monster-chase/tree/main/(Downloads) "Click here") to download and play the game.'
+[Click here  ](https://github.com/dinuka1998/monster-chase/tree/main/(Downloads) "Click here") to download and play the game.
 
 <hr>
 
