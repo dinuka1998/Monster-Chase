@@ -5,7 +5,7 @@
 
 ### Monster Chase Overview
 
-Monster Chase is a simple 2D game in which player must survive against swarm of monsters. 
+Monster Chase is a simple 2D game in which the player must survive against a swarm of monsters. Randomly spawning monsters appear on both the left and right sides with random walking speeds. To survive monsters, you have to jump over them. 
 
 <hr>
 
